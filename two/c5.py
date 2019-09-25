@@ -46,3 +46,7 @@ print('----------------')
 for x in VIP1.__members__.items():
     print(x)
 
+# 枚举转换
+a = 1
+print(VIP1(a))
+
